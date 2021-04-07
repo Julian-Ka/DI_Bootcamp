@@ -1,0 +1,47 @@
+
+
+section {
+
+	background-color: grey;
+		position:fixed;
+    padding:0;
+    margin:0;
+
+    top:10;
+    left:10;
+
+    width: 20%;
+    height: 100%;
+
+
+}
+
+aside{
+
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 70%;
+}
+
+
+img {
+
+	display: flex;
+
+    justify-content: center; 
+    align-items: center;
+
+	border-radius: 100%;
+	height: 150px;
+	width:160px;
+
+div.info {line-height: 10px;}
+
+hr {
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 1.25em;
+ margin-bottom: 1.25em;
+ 
+}
