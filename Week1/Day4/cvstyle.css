@@ -1,4 +1,21 @@
 
+.info {margin: 20px;
+		line-height: 30px;
+		text-align: center;
+
+}
+
+h4 {text-align: center;}
+h1 {text-align: center;}
+
+.sozmed{ line-height: 30px;
+		padding: 30px;
+		margin-left: 60px;
+
+		 }
+
+.profpic{align-items: center;
+		margin-left: 60px;}
 
 section {
 
@@ -12,7 +29,7 @@ section {
 
     width: 20%;
     height: 100%;
-
+    
 
 }
 
@@ -36,7 +53,7 @@ img {
 	height: 150px;
 	width:160px;
 
-div.info {line-height: 10px;}
+
 
 hr {
  margin-left: auto;
