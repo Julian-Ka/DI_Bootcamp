@@ -20,7 +20,7 @@ h1 {text-align: center;}
 section {
 
 	background-color: grey;
-		position:fixed;
+		position:static;
     padding:0;
     margin:0;
 
@@ -29,7 +29,7 @@ section {
 
     width: 20%;
     height: 100%;
-    
+
 
 }
 

@@ -1,0 +1,27 @@
+body{
+
+	background-image: url(https://acceleratetv.com/wp-content/uploads/2016/07/latest-amazing-video-game-character-collage-youtube-hd-wallpaper-cool-collage-wallpaper-1.jpg);
+		 /* Center the image */
+  			background-repeat: no-repeat; /* Do not repeat the image */
+  			background-size: 100%; /* Resize the background image to cover the whole container*/
+  			opacity: 90%;
+
+
+	}
+
+
+	#loginform{
+				text-align: center;
+
+			   }
+
+
+#signupform{
+
+			padding-top: 25%;
+			border: 3px;
+			text-align: center;
+			/*position: fixed;*/
+			top: 40%;
+
+}
