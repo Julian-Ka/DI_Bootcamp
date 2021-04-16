@@ -1,0 +1,131 @@
+div{
+
+		width:300px;
+            height:200px;
+            background:#676470;
+            transition:all 0.3s ease; 
+            border: 5px solid red;
+            margin: 5px;
+}
+
+.Fade-In{opacity: 1;}
+.Fade-In:hover{opacity: 0.5;}
+
+.Change-Color:hover{background-color: blue;}
+
+.Grow:hover{
+	-webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+
+.Shrink:hover{
+	-webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+}
+
+.Rotate:hover{
+	-webkit-transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-30deg);
+}
+
+.SquaretoCircle:hover{ border-radius: 50%; }
+
+.Shadow:hover{
+	box-shadow:
+                1px 1px #53a7ea,
+                2px 2px #53a7ea,
+                3px 3px #53a7ea,
+                4px 4px #53a7ea,
+                5px 5px #53a7ea,
+                6px 6px #53a7ea,
+                7px 7px #53a7ea,
+                8px 8px #53a7ea,
+                9px 9px #53a7ea,
+                10px 10px #53a7ea;
+
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px);
+}
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.Swing:hover{
+-webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
+
+.InsertBorder:hover{
+	box-shadow: inset 0 0 0 25px #53a7ea;
+}
+
