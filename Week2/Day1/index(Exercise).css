@@ -1,0 +1,31 @@
+.flex-container {
+ width: 600px;     					/*parent container muss höhe und breite haben*/
+ height: 500px;						/* um flexbox funktionieren zu lassen*/
+ border: 5px solid red;
+ display: flex;						/*um flexbox nutzen zu können*/
+ flex-direction: column; 			/* ausrichtung der flexbox*/
+ justify-content: space-between; 	/* damit die boxen space dazwischen haben*/
+ 
+}
+
+
+
+.flex1 {
+	height: 100px;
+	background-color: lightblue;
+	align-self: stretch;
+
+	}
+
+.flex2 {
+	width: 300px;
+	height: 200px;
+	background-color: lightblue;
+	align-self: center;
+}
+
+.flex3 {
+	height: 100px;
+	background-color: lightblue;
+	align-self: stretch;
+}
