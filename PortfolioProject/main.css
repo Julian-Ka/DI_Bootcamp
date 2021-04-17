@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+}
+
+body{background-color: rgb(41, 22, 0);}
+
+
+.container-fluid {background-color: teal;
+
+
+				 }
+
+.Intro {	
+			background-image: url(https://wallpapercave.com/wp/wp1891431.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			padding: 20%;
+
+		}
+
+
+p, h1{color: white;}
+
+.lead {
+		text-align: center;
+}
+
+
+.featurette-heading {margin-top: 10%;
+						margin-bottom: 5%;
+}
+
+.imageme {
+				border-radius: 50%;
+				margin-left: 10%;
+				margin-top: 10%;
+}
+
+.About {padding: 20%;}
+
+
+/*section,h1 {
+  padding: 0 1em;
+}*/
+.porthead{text-align: center;}
+
+.grid
+ {
+  display: grid;
+  grid-template-columns: repeat(3,150px);  /* 3 columns */
+  grid-template-rows: repeat(3,150px); /* 3 rows  */
+  grid-gap:50px 30px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+  justify-content: center;
+}
+
+.grid-item{
+  border:thin gray solid;
+  padding:10px;
+  height: 150px;
+  width: 150px;
+}
+
+.Portfolio {padding: 20%;}
+
+.bloghead {text-align: center;}
+
+.Blog {padding: 20%;}
+.Contact {padding: 20%;}
+
+.teamhead{text-align: center;}
+
+.grid2
+ {
+  display: grid;
+  grid-template-columns: repeat(4,150px);  /* 4 columns */
+  grid-template-rows: repeat(1,150px); /* 1 rows  */
+  grid-gap:50px 30px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+  justify-content: center;
+}
+
+.grid3
+ {
+  display: grid;
+  grid-template-columns: repeat(4,150px);  /* 4 columns */
+  grid-template-rows: repeat(1,30px); /* 1 rows  */
+  column-gap: 30px;
+  justify-content: center;
+
+}
+
+.grid-item3{background-color: orange;
+				border-bottom-left-radius: 50%;
+				}
+
+.Team{padding: 20%;}
+
+.grid4
+ {
+  display: grid;
+  grid-template-columns: repeat(2,50%);  /* 4 columns */
+  grid-template-rows: repeat(1,30px); /* 1 rows  */
+  column-gap: 30px;
+  justify-content: center;
+
+}
+
+.grid-item4{ text-align: center;
+				}
+				
+
+.grid5
+ {
+  display: grid;
+  grid-template-columns: repeat(1,50%);  /* 4 columns */
+  grid-template-rows: repeat(4,30px); /* 1 rows  */
+  grid-gap: 30px 20px;
+  justify-content: center;
+
+}
+
+textarea {
+  width: 194%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+.grid-item5{margin: 10px;}
+
+
+.Contact{padding: 20%;}
+
+.contacthead{ color: teal;
+				text-align: center; 
+				 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .Team { display: grid;
+  					grid-template-columns: repeat(1, 30px);
+  					grid-template-rows: repeat(4,25%);
+}
