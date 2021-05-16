@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Random Quotes</title>
+</head>
+<body>
+    
+<h1>Simple Quotegenerator! Have fun!!</h1>
+<section id="Quotes">
+
+</section>
+<p id="Author"></p>
+<p>Likes: </p><p id="likes"></p>
+
+<button onclick="generateQuote()">Generate Quotes</button><br>
+<br>
+<input id="newQuote" type="text">New Quote</input><br>
+<input id="newAuthor" type="text">Author</input><br>
+<button onclick="addQuote()">Save new quote</button><br>
+<button onclick="countCharsSpace()">number of chars with space</button>
+<button onclick="countChars()">number of chars without space</button>
+<button onclick="numWords()">number of words</button>
+<button onclick="likes()">like</button><br>
+<br><br>
+<section id="search">
+    <input id="searchAuthor" type="text">Search for Author</input>
+    <button onclick="searchAuthor()">Search</button>
+</section>
+<br>
+<br>
+<section id="searchResult"></section>
+<button onclick="nextQuote()">Next</button> <button onclick="prevQuote()">Prev</button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
