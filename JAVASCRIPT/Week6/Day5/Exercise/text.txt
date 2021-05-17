@@ -1,0 +1,6 @@
+Things to do:
+
+1. Random number still not working the way it should sometimes it displays the same quote twice or 3 times in a row.
+2. Prev and Next Button dont stop counting down or up when end is reached.
+for example you reache quote number 1 press on prev it says no prev quotes. if you press again it still displays no prev quotes 
+but the counter goes to -1 -2 and so on. same for next and you have to click all the way back until you are at a defined index again.
